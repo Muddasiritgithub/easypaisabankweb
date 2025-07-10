@@ -63,7 +63,7 @@ const FeatureCard = ({ icon, title, description }) => {
   );
 };
 
-export default function FeatureWrapper() {
+ const FeatureWrapper=()=> {
   return (
     <Box
       component="section"
@@ -172,3 +172,5 @@ export default function FeatureWrapper() {
     </Box>
   );
 }
+
+export default FeatureWrapper;

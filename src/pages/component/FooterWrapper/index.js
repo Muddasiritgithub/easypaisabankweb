@@ -17,7 +17,7 @@ import {
   Pinterest as PinterestIcon,
 } from "@mui/icons-material";
 
-export default function FooterWrapper() {
+const FooterWrapper=()=> {
   const linkStyle = {
     color: "#94a3b8",
     textDecoration: "none",
@@ -161,3 +161,5 @@ export default function FooterWrapper() {
     </Box>
   );
 }
+
+export default FooterWrapper;
